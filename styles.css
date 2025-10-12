@@ -1,6 +1,31 @@
 body{
     font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-color: #E76600FF;
+    color: #fff
+}
+
+a:visited, a:link, a:hover, a{
+    color: #FF0600FF
+}
+
+.postContent{
+    border-radius: 1rem;
+    border: 1px solid #000;
+    background-color: #753400FF;
+    margin-bottom: 2rem
+}
+
+.postTitle{
+    margin-left: 1rem;
+}
+
+.postText{
+    margin-left: 2rem
+}
+
+.beforeAfter{
+    display: flex;
 }
