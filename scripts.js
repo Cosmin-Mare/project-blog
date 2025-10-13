@@ -2,11 +2,13 @@ $(document).ready(function() {
     const blogPosts = [
         {
             title: "First Post!",
-            content: "So I just started this blog to map my journey and think about my project for <a href=\"https://moonshot.hackclub.com\">moonshot.hackclub.com</a>!"
+            content: "So I just started this blog to map my journey and think about my project for <a href=\"https://moonshot.hackclub.com\">moonshot.hackclub.com</a>!",
+            date: "12 Oct 2025"
         },
         {
             title: "Imported new font for the website!",
-            content: "And I just imported the Open Sans font! Damn, coding in pure html and css is refreshing after like a year of react.."
+            content: "And I just imported the Open Sans font! Damn, coding in pure html and css is refreshing after like a year of react..",
+            date: "12 Oct 2025"
         },
         {
             title: "Let's do some brainstorming",
@@ -26,13 +28,15 @@ $(document).ready(function() {
                 the whole game and Imma upload the sketch here.`,
             image: "big_think.png",
             imageWidth: 1400,
-            extraContent: "<p>Ok well this is all I thought about and Imma start making the 3d scene</p>"
+            extraContent: "<p>Ok well this is all I thought about and Imma start making the 3d scene</p>",
+            date: "12 Oct 2025"
         },
         {
             title: "Starting scene progress",
             content: "So in abt like 2h of work I finished the bare minimum starting scene, so here it is:",
             image: "AstroScene.png",
-            imageWidth: 1400
+            imageWidth: 1400,
+            date: "12 Oct 2025"
         },
         {
             title: "Let's make this blog nicer",
@@ -42,7 +46,17 @@ $(document).ready(function() {
                 <div class="beforeAfter">
                     <img src="before.png" width="700"/>
                     <img src="after.png" width="700"/>
-                </div>`
+                </div>`,
+            date: "12 Oct 2025"
+        },
+        {
+            title: "Say hello to Johnny!",
+            content: `I made an astronaut model today with rigging and 2 animations(for now), and the provisory name is Johnny. This whole thing took like 3 hours but
+            I really like how it turned out. Also, I wanna work on the blog a bit more, imma make each entry have a date and time when it was posted - actually just date
+            Update: Done!`,
+            extraContent: `<p>PS u can download the blender file w johnny and his spaceship <a href="AstroScene.zip">here</a>!</p>`,
+            image: "johnny.gif",
+            date: "13 Oct 2025"
         }
     ];
 
@@ -53,6 +67,7 @@ $(document).ready(function() {
     blogPosts.forEach(function(post) {
         let postHtml = `<div class="post">
         <div class="postContent">
+            <p>${post.date}</p>
             <h2 class="postTitle">${post.title}</h2>
             <p class="postText">${post.content}</p>
         `;
