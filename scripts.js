@@ -54,11 +54,12 @@ $(document).ready(function() {
             content: `I made an astronaut model today with rigging and 2 animations(for now), and the provisory name is Johnny. This whole thing took like 3 hours but
             I really like how it turned out. Also, I wanna work on the blog a bit more, imma make each entry have a date and time when it was posted - actually just date
             Update: Done!`,
-            extraContent: `<p>PS u can download the blender file w johnny and his spaceship <a href="AstroScene.zip">here</a>!</p>`,
+            extraContent: `<p>PS u can download the blender file w johnny and his spaceship <a href="AstroScene.zip">here</a>!</p>
+            <p>Ok Last thing Imma make posts appear in reverse chronological order</p>`,
             image: "johnny.gif",
             date: "13 Oct 2025"
         }
-    ];
+    ].reverse();
 
     // Clear existing content except the h1
     $("#main").html("<h1>Cosmin's Blog</h1>");
