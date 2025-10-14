@@ -58,6 +58,16 @@ $(document).ready(function() {
             <p>Ok Last thing Imma make posts appear in reverse chronological order</p>`,
             image: "johnny.gif",
             date: "13 Oct 2025"
+        },
+        {
+            title: "Game is now on Unity and Github!",
+            content: `I exported all the assets and put them into Unity, and then realized the character's hands
+            are too low and it doesn't look very good, so I made 2 separate meshes that I'm gonna have to tweak
+            a bit (one for only the hands and one without the hands) and made 2 more animations for walking and
+            idling to match the new hands height.. Overall pretty long process, I spent like 1h making the
+            animations again, but I enjoyed it:) (btw idk why the video is slowed down, it's actually pretty fast irl)`,
+            image: "unity.gif",
+            date: "14 Oct 2025"
         }
     ].reverse();
 
