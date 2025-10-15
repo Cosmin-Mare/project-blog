@@ -68,6 +68,35 @@ $(document).ready(function() {
             animations again, but I enjoyed it:) (btw idk why the video is slowed down, it's actually pretty fast irl)`,
             image: "unity.gif",
             date: "14 Oct 2025"
+        },
+        {
+            title: "Well today was quite the day.",
+            content: `Okay, today I worked like 8.5h on the game or something like that. Mostly it was on 3d modelling,
+            I made the backpack, oxygen tanks with tubes that go to the mask, and a strap which took so long to make,
+            but I'm super proud of the result and i think it all looks awesome! I also made 2 ores (Iron and Lithium)
+            and their corresponding items, for which I had to learn how to render stuff for 2D use in a game which was
+            pretty nice. Then the coding part: I made an inventory system and UI for inventory, made it so u can hit
+            the ores and after 4 hits you get the item (they have a health bar too, but I might remove that), and 
+            I tweaked the animations and camera so that the arms move with the camera so it feels more natural. I'm gonna
+            record some vids and take some photos which I'll put below! Oh also I did some rearrangement of all the game files
+            so they're more easily findable now!`,
+            image: "time.png",
+            extraContent: `<img src='game.png' width='1400'/>
+            <p>here's the ores!</p>
+            <img src='game.png' width='1400'/>
+            <p>and here's the items in the inventory! (I also made it so u can pick multiple and they stack
+            up to a certain point and then it occupies the next space)</p>
+            <img src='inventory.png' width='1400'/>
+            <p>here's a video that shows how the arms now move w the camera!</p>
+            <video controls>
+                <source src="arms.mov" type="video/mp4"/>
+            </video>
+            <p>and here's the astronaut w the backpack!</p>
+            <img src="backpack.png" width='1400'/>
+            <p>Okay ty for reading through the updates, I'm writing then at 2am right before going to bed:)
+            Even if nobody goes through them I'm still happy lol this is an awesome project that I'm making and I get to
+            notice my progress:)</p>`,
+            date: "15 Oct 2025 (even tho it's technically 16th bc it's 2am lol)"
         }
     ].reverse();
 
