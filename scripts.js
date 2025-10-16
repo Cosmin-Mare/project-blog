@@ -97,6 +97,16 @@ $(document).ready(function() {
             Even if nobody goes through them I'm still happy lol this is an awesome project that I'm making and I get to
             notice my progress:)</p>`,
             date: "15 Oct 2025 (even tho it's technically 16th bc it's 2am lol)"
+        },
+        {
+            title: "New Map, Animations and Sound Effects!",
+            content: `hey! Today I worked on some new animations, a new map (although not nearly complete) 
+            and got some sound effects from pixabay to  put into the game! Oh and I made some custom 
+            item container thingies for the UI! And a pickaxe lol:)) Here's everything in one video:`,
+            extraContent: `<video controls>
+                <source src="oct16.mov" type="video/mp4"/>
+            </video>`,
+            date: "16 Oct 2025 (still 2am on the next day)"
         }
     ].reverse();
 
