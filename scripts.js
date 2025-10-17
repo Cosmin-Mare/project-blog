@@ -107,6 +107,18 @@ $(document).ready(function() {
                 <source src="oct16.mov" type="video/mp4"/>
             </video>`,
             date: "16 Oct 2025 (still 2am on the next day)"
+        },
+        {
+            title: "Unity shadows suck, but I finally did it!",
+            content: `Today was the most and least productive day yet. I have so much screen time, but I got so little done. I made the starting base that
+            the player can go through by pressing a button which opens a door, so I had to make the animation for both the player and the door, and they turned
+            out pretty good! But then, disaster struck. Light was bleeding into the base through the walls, and I searched so much for a fix for this
+            and I tried literally everything for like 6 hours, I remade the model, I tried 1000 light settings, even tried switching to the HD render pipeline
+            but nothing worked. Then, I serached on my phone while I was eating bc I couldn't get my mind off of it and I finally understood how it works, so
+            I changed some settings and then it worked. Anyways, that's pretty much everything for today bc I spent 6h trying to debug that, ig we live and
+            we learn. Imma start uploading the videos to youtube bc they're getting too big for github. But rn I'm going to sleep bc I only slept for 6h and
+            I'm dying (I also drank 2 coffees today, without which I don't think I could've actually stayed awake)`,
+            date: "17 Oct 2025 (it just turned 12am on the 18th smh)"
         }
     ].reverse();
 
