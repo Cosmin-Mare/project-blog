@@ -119,6 +119,17 @@ $(document).ready(function() {
             we learn. Imma start uploading the videos to youtube bc they're getting too big for github. But rn I'm going to sleep bc I only slept for 6h and
             I'm dying (I also drank 2 coffees today, without which I don't think I could've actually stayed awake)`,
             date: "17 Oct 2025 (it just turned 12am on the 18th smh)"
+        },
+        {
+            title: "We have a planet!!!",
+            content: `Did you know just how complicated it is to make planetary gravity in unity? and for rigid bodies it's very easy, but for a character
+            it's way harder bc you have to make him be upright on the world and rotate a bunch of stuff. But I managed to do it and now we have planet gravity!
+            I also started working on the actual planet model, and rn I just have a small part, but I also made a map! I won't share the map bc that's spoilers
+            but I will share the starting planet, and keep in mind that that's just like less than 1% of the full planet. I wanna make it all by hand bc that way
+            I can make a bunch of cool stuff and I think it's great for storytelling.`,
+            image: 'PlanetStart.png',
+            extraContent: "<img src='InGamePlanetStart.png'/> <p>I know it looks empty, but today I'm gonna make some world decoration for this starting space!</p>",
+            date: "Oct 18 2025 (well it's actualy 19th bc I forgot to write it yesterday night)"
         }
     ].reverse();
 
