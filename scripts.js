@@ -130,6 +130,15 @@ $(document).ready(function() {
             image: 'PlanetStart.png',
             extraContent: "<img src='InGamePlanetStart.png'/> <p>I know it looks empty, but today I'm gonna make some world decoration for this starting space!</p>",
             date: "Oct 18 2025 (well it's actualy 19th bc I forgot to write it yesterday night)"
+        },
+        {
+            title: "Decoration Day!",
+            content: `Today I worked on some decorations in blender, remade the planet, and tweaked the player movement a bit. Today was mostly a Blender and
+            game design day. I remade the planet much smaller, I made 3 flowers and 2 grasses, I made an oxygen filter and a 3d Printer for the starting pod,
+            and I wrote the story for the game and the game loop. I also spend a while getting inspiration for this, and I think it ended up really nice.
+            I obviously won't spoil it here, but it's pretty thought out. Also I'm excited about tomorrow bc I'll start decorating the other biomes around the
+            base and maybe tinker a bit with unity lighting and stuff.`,
+            date: "Oct 19th"
         }
     ].reverse();
 
