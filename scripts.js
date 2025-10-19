@@ -137,7 +137,7 @@ $(document).ready(function() {
             game design day. I remade the planet much smaller, I made 3 flowers and 2 grasses, I made an oxygen filter and a 3d Printer for the starting pod,
             and I wrote the story for the game and the game loop. I also spend a while getting inspiration for this, and I think it ended up really nice.
             I obviously won't spoil it here, but it's pretty thought out. Also I'm excited about tomorrow bc I'll start decorating the other biomes around the
-            base and maybe tinker a bit with unity lighting and stuff.`,
+            base and maybe tinker a bit with unity lighting and stuff. Oh yeah, I also made a nice skybox today using unity shader graph`,
             date: "Oct 19th"
         }
     ].reverse();
