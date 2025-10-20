@@ -139,6 +139,14 @@ $(document).ready(function() {
             I obviously won't spoil it here, but it's pretty thought out. Also I'm excited about tomorrow bc I'll start decorating the other biomes around the
             base and maybe tinker a bit with unity lighting and stuff. Oh yeah, I also made a nice skybox today using unity shader graph`,
             date: "Oct 19th"
+        },
+        {
+            title: "Flowers, Grass and new Ship!",
+            content: `Today was a blender day: I made a new ship bc the old one's geometry was rly bad (I got from 10k faces to just below 800), I made some new
+            plants and made a hair particle system combined w weight painting to place them randomly in a specific biome. And that's pretty much about it, I 
+            have to fix the animations for the imported ship in unity, but today was a pretty slow day, I spent quite a bit of time w one of my friends and also
+            w talked w my gf for a while planning her trip to Romania that's happening in 2 days:)`,
+            date: "Oct 20th"
         }
     ].reverse();
 
