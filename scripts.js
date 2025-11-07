@@ -147,6 +147,14 @@ $(document).ready(function() {
             have to fix the animations for the imported ship in unity, but today was a pretty slow day, I spent quite a bit of time w one of my friends and also
             w talked w my gf for a while planning her trip to Romania that's happening in 2 days:)`,
             date: "Oct 20th"
+        },
+        {
+            title: "Getting back to it",
+            content: `So it's been 17 days since I last posted, and I haven't made much progress bc I didn't work on the game since. This is because I got
+            unfocused and then it was hard to start, but now I'm gonna get back to it so that I can go to Moonshot! Firstly, I need to work on a story for
+            my game and then remake the world and the lighting bc I messed it up. Maybe the models are gonna stay the same for now, but I'm sure I'm gonna
+            have to remake them later. I will share the story here once I'm finished`,
+            date: "Nov 7th"
         }
     ].reverse();
 
